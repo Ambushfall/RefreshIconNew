@@ -9,7 +9,7 @@ namespace RefreshIcon
 
         static void Main()
         {
-            SHChangeNotify(0x8000000, 0x0000, IntPtr.Zero, IntPtr.Zero);
+            SHChangeNotify(0x8000000, 0x0000, IntPtr.Zero, IntPtr.Zero); 
         }
     }
 }
